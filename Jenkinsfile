@@ -10,13 +10,13 @@ pipeline {
      
         stage('sprint1') { 
             steps { 
-               sh 'echo "sprint1 has been started from application side..."'
+               sh 'echo "sprint1 has been started from application sie..."'
             }
         }
 
-        stage("Deploy application") { 
+        stage("Sprint2") { 
              steps { 
-                sh 'echo "Deploying application..."'
+                sh 'echo "Sprint will start in next week application..."'
             }
         }  
     }
